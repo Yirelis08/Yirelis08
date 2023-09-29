@@ -1,18 +1,13 @@
-- 👋 Hi, I’m @Yirelis08
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Almacena 30 números en un vector
+vector_original = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
 
-<!---
-Yirelis08/Yirelis08 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
----
-a = ["1","2","3","4"]
-print(1)
-1
-a.append("5")
-print(1)
-1
+# Elevar al cuadrado cada valor almacenado en el vector
+vector_resultante = []
+for numero in vector_original:
+  vector_resultante.append(numero ** 2)
+
+# Imprimir el vector original y el vector resultante
+print("Vector original:", vector_original)
+print("Vector resultante:", vector_resultante) 
 [DEBUG ON]
 [DEBUG OFF]
